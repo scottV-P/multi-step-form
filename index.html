@@ -22,7 +22,7 @@
 
     <ul class="steps step-one ">
       <li class="step1 all-steps">
-        <div class="list-num lists-active">1</div>
+        <div class="list-num lists-hidden">1</div>
         <div class="side-content">
         <p>Step 1</p>
         <div class="info">Your info</div>
@@ -85,7 +85,7 @@
       <button class="next-step" >Next Step</button>
     </div>
   </div>  
-    <div class="step-two-container active">  
+    <div class="step-two-container hidden">  
       <div class="header-sec">
       <h1 class="title">Select your plan</h1>
       <p class="info-p">You have the option of monthly or yearly billing.</p>
@@ -146,7 +146,7 @@
       </ul>
 
       <div class="toggle-container">
-          <div class="monthly toggle-active">Monthly</div>
+          <div class="monthly toggle-hidden">Monthly</div>
             <div class="toggler">
               <div class="circle"></div>
             </div>
@@ -158,7 +158,7 @@
       </div>
     </div>  
       
-    <div class="step-three-container active">  
+    <div class="step-three-container hidden">  
       <div class="header-sec">
         <h1 class="title">Pick add-ons</h1>
         <p class="info-p">Add-ons help enhance your gaming experience.</p>
@@ -168,20 +168,20 @@
             <div class="check-container">
             <input type="checkbox" name="checkbox" id="checkbox1" class="checkboxes"  >
             <span class="checkmark"></span>
-          </div>
-              <div class="info-content">
+            </div>
+            <div class="info-content">
               <h4 class="header-feature">Online service</h4>
               <p class="service-p">Access to multiplayer games</p>
-              </div>
-              <div class="price">+$<span class="price-y">1</span>/mo</div>
-              <div class="link"></div>
+            </div>
+            <div class="price">+$<span class="price-y">1</span>/mo</div>
+            <div class="link"></div>
           </li>
           <li class="feature2 features">
             <div class="check-container">
               <input type="checkbox" name="checkbox" id="checkbox1" class="checkboxes" >
               <span class="checkmark checked"></span>
-              </div>
-            <div class="info-content">
+            </div>
+            <div class="info-content info2">
               <h4 class="header-feature">Larger storage</h4>
               <p class="service-p">Extra 1TB of cloud save</p>
             </div>
@@ -201,7 +201,7 @@
               <span class="link"></span>
           </li>
       </ul>
-      <ul class="features-container yearlyContainer active">
+      <ul class="features-container yearlyContainer hidden">
           <li class="feature1 features">
             <div class="check-container">
             <input type="checkbox" name="checkbox" id="checkbox1" class="checkboxes"  >
@@ -245,20 +245,20 @@
         </div>
     </div> 
 
-    <div class="step-four-container active"> 
+    <div class="step-four-container hidden"> 
       <div class="header-sec">
         <h1 class="title">Finishing up</h1>
         <p class="info-p">Double-check everything looks OK before confirming.</p>
       </div>
       <div class="last-service-container">
           <div class="main-service-content">
-              <div class="service-name"><span class="service-title">Arcade</span> 
+              <div class="service-name"><span class="service-title" id="service-title">Arcade</span> 
                 (<span class="last-time">Monthly</span>)</div>
               <div class="total-price">$<span class="priceTotal"></span>/<span class="total-t">yr</span></div>
           </div>
         </div>
           <div class="total-container">
-            <div class="total-title">Total (Monthly)</div>
+            <div class="total-title" id="total-title"></div>
             <span class="final-total">+$<span class="finalTotal-n"></span><span class="time">/mo</span> </span>
           </div>
           <div class="btn-container4">
@@ -268,13 +268,13 @@
       </div>  
 
 
-      <div class="end-container active">  
+      <div class="end-container hidden">  
         <img src="assets/images/icon-thank-you.svg" alt="Thanks">
         <h1 class="thanks-head"> Thank you!</h1>
         <p class="end-p">Thanks for confirming your subscription! We hope you have fun 
           using our platform. If you ever need support, please feel free 
           to email us at support@loremgaming.com.</p>
-      </div>  <!-- Step 5 end -->
+      </div>
       
 </main>
 
