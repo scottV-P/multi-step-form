@@ -74,6 +74,12 @@ toggler.addEventListener('click',()=>{
     plansConYR.classList.toggle('plan-y-hidden')
     yearlyContainer.classList.toggle('hidden')
     monthlyContainer.classList.toggle('hidden')
+    document.getElementById('checkbox1').removeAttribute('checked')
+    document.getElementById('checkbox2').removeAttribute('checked')
+    document.getElementById('checkbox3').removeAttribute('checked')
+    document.getElementById('checkbox4').removeAttribute('checked')
+    document.getElementById('checkbox5').removeAttribute('checked')
+    document.getElementById('checkbox6').removeAttribute('checked')
 })
 
 
